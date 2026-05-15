@@ -69,13 +69,15 @@
 
     .gallery {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 24px;
       margin-bottom: 80px;
     }
 
     .gallery video {
         width: 100%;
+        aspect-ratio:  9 / 16;
+        object-fit: cover;
         display: block;
         border-radius: 2px;
     }
@@ -114,18 +116,41 @@
 <section class="gallery">
 
   <video autoplay muted loop playsinline>
-    <source src="videos/video-01.mov" type="video/quicktime">
+    <source src="videos/video-01.mp4" type="video/mp4">
   </video>
 
   <video autoplay muted loop playsinline>
-    <source src="videos/video-02.mov" type="video/quicktime">
+    <source src="videos/video-02.mp4" type="video/mp4">
   </video>
 
   <video autoplay muted loop playsinline>
-    <source src="videos/video-03.mov" type="video/quicktime">
+    <source src="videos/video-03.mp4" type="video/mp4">
   </video>
+  <video autoplay muted loop playsinline>
+  <source src="videos/video-04.mp4" type="video/mp4">
+</video>
 
+<video autoplay muted loop playsinline>
+  <source src="videos/video-05.mp4" type="video/mp4">
+</video>
+
+<video autoplay muted loop playsinline>
+  <source src="videos/video-06.mp4" type="video/mp4">
+</video>
+
+<video autoplay muted loop playsinline>
+  <source src="videos/video-07.mp4" type="video/mp4">
+</video>
+
+<video autoplay muted loop playsinline>
+  <source src="videos/video-08.mp4" type="video/mp4">
+</video>
+
+<video autoplay muted loop playsinline>
+  <source src="videos/video-09.mp4" type="video/mp4">
+</video>
 </section>
+
 
   </main>
 
