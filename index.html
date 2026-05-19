@@ -75,11 +75,11 @@
     }
 
     .hero {
-      display: grid;
-      grid-template-columns: 220px 1fr;
-      gap: 24px;
-      align-items: start;
-      padding: 24px 0 56px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      padding: padding: 12px 0 48px;
     }
 
     .portrait {
@@ -99,18 +99,17 @@
 
     h1 {
       margin: 0;
-      max-width: 760px;
-      font-size: clamp(2rem, 4vw, 3.6rem);
-      line-height: 0.92;
+      font-size: clamp(2.4rem, 5vw, 3.8rem);
+      line-height: 0.95;
       letter-spacing: -0.06em;
-      font-weight: 800;
+      font-weight: 750;
     }
 
     .role {
       margin: 22px 0 0;
       font-size: 1.3rem;
       letter-spacing: -0.04em;
-      color: var(--muted);
+      color: #5c5750;
     }
 
       .visual-link {
@@ -266,7 +265,7 @@
 
       <div>
         <h1>Ingvild Blomsø</h1>
-        <p class="role">Senior comm. advisor</p>
+        <p class="role">Senior advisor in communication and digital strategy</p>
 
         <ul class="top-list" aria-label="Nøkkelkompetanse">
         </ul>
@@ -341,8 +340,34 @@
       </div>
     </section>
 
+    <section id="testimonials">
+      <h2>What others say</h2>
+      <div class="quotes">
+
+      <blockquote>
+      “She quickly gained a deep understanding of our market, our customers’ challenges and our products. 
+      She also demonstrated a level of technical insight we did not expect from a communications advisor.”
+      <cite>— CCO</cite>
+      </blockquote>
+
+      <blockquote>
+      “She wrote engaging articles for us and leveraged her network to secure prominent features in both 
+      DN and Kode24. This resulted in widespread media attention before other players in the
+      industry followed suit.”
+      <cite>— CEO</cite>
+      </blockquote>
+
+      <blockquote>
+      “Our projects felt effortless thanks to her confidence and abililty to meet — and often exceed — 
+      expectations. She’s the best copywriter I’ve worked with and an outstanding project manager”
+      <cite>— CMO</cite>
+      </blockquote>
+
+      </div>
+    </section>
+
     <section id="kontakt">
-      <h2>Contakt</h2>
+      <h2>Contact</h2>
       <div class="contact">
         <a href="mailto:ingvild.m.blomso@gmail.com">ingvild.m.blomso@gmail.com</a><br />
         <a href="tel:+47XXXXXXXX">+47 938 99 263</a><br />
